@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+
+# 运行数据与缓存（本地生成，不入库）
+data/
+tunnel.log
+public_url.txt
+
+# 系统文件
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# 打包产物
+*.zip
+
+# 公网穿透工具（不随开源包分发）
+share_public.bat
